@@ -1,3 +1,7 @@
+.body {
+  font-family: lato;
+}
+
 .clearfix:after {
   display: block;
   content: "";
@@ -68,6 +72,7 @@
 }
 
 .bolt-theme-p {
+  font-family: raleway;
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
@@ -95,6 +100,7 @@
 }
 
 .what {
+  font-family: raleway;
   font-size: 24px;
   margin-bottom: 35px;
 }
@@ -111,6 +117,7 @@
 }
 
 .our {
+  font-family: raleway;
   font-size: 24px;
   margin-bottom: 40px;
 }
@@ -174,6 +181,7 @@
 }
 
 .our-skills {
+  font-family: raleway;
   font-size: 24px;
   margin-bottom: 70px;
 }
