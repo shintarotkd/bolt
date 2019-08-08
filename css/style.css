@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: Lato;
 }
 
@@ -87,14 +87,12 @@
 }
 
 .iphone {
-  display: inline-block;
   float: left;
 }
 
 .what-text {
   color: white;
   text-align: center;
-  display: inline-block;
   vertical-align: top;
   float: right;
 }
@@ -126,6 +124,10 @@
   margin-bottom: 40px;
 }
 
+.images {
+  margin-bottom: 90px;
+}
+
 .o-img {
   margin-left: 100px;
   margin-top: 80px;
@@ -137,16 +139,8 @@
   opacity: 1;
 }
 
-.o-img:first-child {
+.o-img:nth-child(3n+1) {
   margin-left: 0;
-}
-
-.o-img:nth-child(4) {
-  margin-left: 0;
-}
-
-.o-img:nth-of-type(n+4) {
-  margin-bottom: 90px;
 }
 
 .o-img:nth-of-type(-n+3) {
