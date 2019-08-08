@@ -1,5 +1,5 @@
 .body {
-  font-family: lato;
+  font-family: Lato;
 }
 
 .clearfix:after {
@@ -59,10 +59,9 @@
   background-color: #f2f2f2;
 }
 
-.title-logo {
+.theme-inner {
   padding-top: 250px;
   padding-bottom: 250px;
-  height: 140px;
 }
 
 .bolt-theme {
@@ -72,11 +71,10 @@
 }
 
 .bolt-theme-p {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 30px;
   color: #c0c0c0;
-  margin-top: 20px;
-  margin-bottom: 250px;
+  margin-top: 20px; 
 }
 
 .what-we-can-do {
@@ -84,14 +82,16 @@
   width: 100%;
 }
 
-.iphone {
+.what-inner {
   padding-top: 50px;
+}
+
+.iphone {
   display: inline-block;
   float: left;
 }
 
-.what-text{
-  padding-top: 50px;
+.what-text {
   color: white;
   text-align: center;
   display: inline-block;
@@ -100,7 +100,7 @@
 }
 
 .what {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 24px;
   margin-bottom: 35px;
 }
@@ -112,20 +112,23 @@
 .our-latest-work {
   background-color: #f2f2f2;
   width: 100%;
-  padding-top: 60px;
   color: #333;
 }
 
+.our-inner {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
 .our {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 24px;
   margin-bottom: 40px;
 }
 
 .o-img {
-  padding-right: 100px;
-  padding-bottom: 80px;
-  display: inline-flex;
+  margin-left: 100px;
+  margin-top: 80px;
   float: left;
   opacity: 0.7;
 }
@@ -134,26 +137,24 @@
   opacity: 1;
 }
 
-.o-img:nth-child(3) {
-  padding-right: 0;
+.o-img:first-child {
+  margin-left: 0;
 }
 
 .o-img:nth-child(4) {
-  padding-bottom: 90px;
+  margin-left: 0;
 }
 
-.o-img:nth-child(5) {
-  padding-bottom: 90px;
+.o-img:nth-of-type(n+4) {
+  margin-bottom: 90px;
 }
 
-.o-img:nth-child(6) {
-  padding-right: 0;
-  padding-bottom: 90px;
+.o-img:nth-of-type(-n+3) {
+  margin-top: 0;
 }
 
 .our-p {
   font-size: 20px;
-  padding-bottom: 70px;
   display: inline-block;
 }
 
@@ -176,12 +177,15 @@
   background-color: #4e4e4e;
   width: 100%;
   color: #f2f2f2;
+}
+
+.circles-inner {
   padding-bottom: 100px;
   padding-top: 70px;
 }
 
 .our-skills {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 24px;
   margin-bottom: 70px;
 }
@@ -203,6 +207,9 @@
 .sns-link {
   width: 100%;
   background-color: #f2f2f2;
+}
+
+.sns-inner {
   padding-top: 200px;
   padding-bottom: 200px;
 }
