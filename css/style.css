@@ -5,6 +5,10 @@ body {
   font-family: Lato;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .clearfix:after {
   display: block;
   content: "";
@@ -197,7 +201,7 @@ body {
   margin-right: 180px;
 }
 
-.circle-p{
+.circle-p {
   font-size: 16px;
   margin-top: 10px;
 }
@@ -243,14 +247,81 @@ body {
   text-align: right;
 }
 
-@media screen and (max-width:767px) {
-  
-  body{
-    width: 100%;
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+  .inner{
+    width: 97%;
   }
 
+  .what-inner {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .iphone {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .what-text {
+    float: none;
+    margin : 0 auto;
+  }
+
+  .o-img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+
+  .o-img:nth-child(3n+1) {
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .o-img:first-child {
+    margin-top: 0;
+  }
+
+  .our-p {
+    display: block;
+  }
+
+  .email-btn {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .circle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 88px;
+  }
+
+  .circle:first-child {
+    margin-top: 70px;
+  }
+
+  .sns-hover {
+    width : 25%;
+  }
+
+  .sns-inner {
+    display: flex;
+  }
+
+  .footer-p {
+    padding-right: 10px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+
   .inner {
-    width: 100%;
+    width: 97%;
     margin: 0;
     float: none;
   }
@@ -279,7 +350,8 @@ body {
   }
 
   .what-inner {
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-sizing: border-box;
   }
 
@@ -310,21 +382,21 @@ body {
   }
 
   .our-p {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .email-btn {
     margin: 0 auto;
   }
 
-  .our-skills {
-    margin-bottom: -30px;
-  }
-
   .circle {
     display: block;
     margin: 0 auto;
     margin-top: 100px;
+  }
+
+  .circle:first-child {
+    margin-top: 0;
   }
 
   .sns-inner {
@@ -340,70 +412,4 @@ body {
   .footer-p {
     padding-right: 10px;
   }
-  }
-
-  @media screen and (min-width:768px) and (max-width:1199px) {
-   
-    body {
-      width: 100%;
-    }
-
-    .inner{
-      width: 100%;
-    }
-
-    .what-inner {
-      padding-top: 50px;
-      padding-bottom: 25px;
-    }
-
-    .iphone {
-      margin: 0 auto;
-      float: none;
-      margin-bottom: 20px;
-    }
-
-    .what-text {
-      float: none;
-      margin : 0 auto;
-    }
-
-    .o-img {
-      float: none;
-      margin: 0 auto;
-      display: block;
-      width: 300px;
-    }
-
-    .o-img:nth-child(3n+1) {
-      margin: 0 auto;
-      margin-top: 80px;
-    }
-
-    .o-img:first-child {
-      margin-top: 40px;
-    }
-
-    .our-p {
-      display: block;
-    }
-
-    .email-btn {
-      margin: 0 auto;
-      margin-top: 40px;
-    }
-
-    .our-skills {
-      margin-bottom: -18px;
-    }
-
-    .circle {
-      display: block;
-      margin: 0 auto;
-      margin-top: 88px;
-    }
-
-    .footer-p {
-      padding-right: 10px;
-    }
   }
