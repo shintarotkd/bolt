@@ -1,3 +1,6 @@
+
+
+
 body {
   font-family: Lato;
 }
@@ -48,6 +51,10 @@ body {
   font-size: 12px;
   color: #f2f2f2;
   text-decoration: none;
+}
+
+.humbergur {
+  display: none;
 }
 
 .contact-btn:hover {
@@ -235,3 +242,168 @@ body {
   font-size: 16px;
   text-align: right;
 }
+
+@media screen and (max-width:767px) {
+  
+  body{
+    width: 100%;
+  }
+
+  .inner {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+
+  .theme-inner {
+    padding-top: 160px;
+    padding-bottom: 130px;
+    margin: 0 auto;
+  }
+
+  .bolt-theme {
+    font-size: 80px;
+  }
+  
+  .contact-btn { 
+    display: none;
+  } 
+
+  .humbergur {
+    display: block;
+    float: right;
+    color: #ddd;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .what-inner {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .iphone {
+    float: none;
+  }
+
+  .what-text {
+    margin-top: 10px;
+    float: none;
+    width: 100%;
+  }
+  
+  .o-img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width:300px;
+  }
+
+  .o-img:nth-child(3n+1) {
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .o-img:first-child {
+    margin-top: 0;
+  }
+
+  .our-p {
+    margin-bottom: 20px;
+  }
+
+  .email-btn {
+    margin: 0 auto;
+  }
+
+  .our-skills {
+    margin-bottom: -30px;
+  }
+
+  .circle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .sns-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sns-hover {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-p {
+    padding-right: 10px;
+  }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1199px) {
+   
+    body {
+      width: 100%;
+    }
+
+    .inner{
+      width: 100%;
+    }
+
+    .what-inner {
+      padding-top: 50px;
+      padding-bottom: 25px;
+    }
+
+    .iphone {
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+    }
+
+    .what-text {
+      float: none;
+      margin : 0 auto;
+    }
+
+    .o-img {
+      float: none;
+      margin: 0 auto;
+      display: block;
+      width: 300px;
+    }
+
+    .o-img:nth-child(3n+1) {
+      margin: 0 auto;
+      margin-top: 80px;
+    }
+
+    .o-img:first-child {
+      margin-top: 40px;
+    }
+
+    .our-p {
+      display: block;
+    }
+
+    .email-btn {
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    .our-skills {
+      margin-bottom: -18px;
+    }
+
+    .circle {
+      display: block;
+      margin: 0 auto;
+      margin-top: 88px;
+    }
+
+    .footer-p {
+      padding-right: 10px;
+    }
+  }
