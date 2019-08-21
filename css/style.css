@@ -300,8 +300,8 @@ img {
     margin-top: 88px;
   }
 
-  .circle:first-child {
-    margin-top: 70px;
+  .circles .circle:first-child {
+    margin-top: 0;
   }
 
   .sns-hover {
@@ -322,8 +322,6 @@ img {
 
   .inner {
     width: 97%;
-    margin: 0;
-    float: none;
   }
 
   .theme-inner {
@@ -395,7 +393,7 @@ img {
     margin-top: 100px;
   }
 
-  .circle:first-child {
+  .circles .circle:first-child {
     margin-top: 0;
   }
 
